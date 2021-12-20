@@ -1,22 +1,3 @@
-<#
-
-    Functions to run Mimikatz on a mass number of machines
-    without using PSRemoting.
-
-    Utilizes PowerSploit's Invoke-Mimikatz:
-        https://github.com/mattifestation/PowerSploit/blob/master/Exfiltration/Invoke-Mimikatz.ps1
-    as well as @obscuresec's quick webserver stub:
-        https://gist.github.com/obscuresec/71df69d828e6e05986e9#file-dirtywebserver-ps1
-
-    Original inspiration from @mubix's article at 
-        http://carnal0wnage.attackresearch.com/2013/10/dumping-domains-worth-of-passwords-with.html
-
-
-    adaptation by @harmj0y
-
-#>
-
-
 # helper to parse out Mimikatz output
 function Parse-Mimikatz {
 
